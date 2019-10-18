@@ -1,0 +1,270 @@
+
+# Machine 2 weapons testing
+fallen_machine_empire_weapons = {
+	graphical_culture = "fallen_machine_empire_01"
+	initializer = "fallen_machine_extra_fallen_empires_01"
+	
+	possible = {
+		host_has_dlc = "Synthetic Dawn Story Pack"
+		host_has_dlc = "Distant Stars Story Pack"
+	}
+	
+	create_country_effect = {
+		create_species = {
+			name = random
+			class = MACHINE
+			namelist = MACHINE3
+			portrait = random
+			traits = {
+				trait = trait_machine_unit
+				trait = random_traits
+			}
+			extra_trait_points = 3
+			allow_negative_traits = no
+		}
+		create_country = {
+			name = NAME_EFE_MACHINE_01
+			type = fallen_empire
+			ignore_initial_colony_error = yes
+			authority = auth_machine_intelligence
+			civics = {
+				civic = extra_civic_machine_remnants
+				civic = civic_weapons_testing
+			}
+			species = last_created
+			ethos = {
+				ethic = ethic_gestalt_consciousness
+			}			
+			flag = random
+			effect = {
+				set_country_flag = EFE_fallen_empire_machine
+				add_resource = {
+					minerals = 10000
+					energy = 10000	
+					food = 1000
+					influence = 500
+				}			
+				if = {
+					limit = { host_has_dlc = "Apocalypse" }
+					give_technology = {
+						tech = tech_colossus
+						message = no
+					}
+				}
+				# must initialize global designs here
+				add_global_ship_design = "NAME_Omega"
+				add_global_ship_design = "NAME_Alpha"
+				add_global_ship_design = "NAME_Beta"
+				add_global_ship_design = "NAME_Gamma"
+				add_global_ship_design = "NAME_Theta"
+				add_global_ship_design = "NAME_Tau"
+				add_global_ship_design = "NAME_Sigma"
+				add_global_ship_design = "NAME_FE_Starbase"
+			}
+		}
+	}
+}
+
+#Dyson Spiritualist fallen empire 
+
+EFE_dyson_fallen_machine_empire = {
+	graphical_culture = "fallen_empire_01"
+	initializer = "EFE_normal_dyson_captial_01"
+	
+	create_country_effect = {
+		create_species = {
+			name = random
+			class = random_non_machine
+			portrait = random
+			traits = random
+			extra_trait_points = 3
+			allow_negative_traits = no
+		}
+		create_country = {
+			name = random
+			type = fallen_empire
+			ignore_initial_colony_error = yes
+			authority = auth_imperial
+			civics = {
+				civic = civic_lethargic_leadership
+				civic = civic_empire_in_decline
+			}
+			species = last_created
+			ethos = {
+				ethic = ethic_fanatic_spiritualist
+			}			
+			flag = random
+			effect = {
+				save_global_event_target_as = EFE_fallen_empire_1
+				set_country_flag = EFE_fallen_empire_1
+				add_resource = {
+					minerals = 10000
+					energy = 10000	
+					food = 1000
+					influence = 500
+				}							
+				# must initialize global designs here
+				add_global_ship_design = "NAME_Cleanser"
+				add_global_ship_design = "NAME_Eternal"
+				add_global_ship_design = "NAME_Avatar"
+				add_global_ship_design = "NAME_Zealot"
+				add_global_ship_design = "NAME_Penitent"
+				add_global_ship_design = "NAME_Faith"
+				add_global_ship_design = "NAME_Pilgrim"
+				add_global_ship_design = "NAME_FE_Starbase"
+			}
+		}
+	}
+}
+
+
+##Isolated xenophobe fallen empire 
+
+EFE_isolated_fallen_machine_empire = {
+	graphical_culture = "fallen_empire_04"
+	initializer = "EFE_normal_isolated_captial_02"
+	
+	create_country_effect = {
+		create_species = {
+			name = random
+			class = random_non_machine
+			portrait = random
+			traits = random
+			extra_trait_points = 5
+			allow_negative_traits = no
+		}
+		create_country = {
+			name = random
+			type = fallen_empire
+			ignore_initial_colony_error = yes
+			authority = auth_imperial
+			civics = {
+				civic = civic_lethargic_leadership
+				civic = civic_empire_in_decline
+			}
+			species = last_created
+			ethos = {
+				ethic = ethic_fanatic_xenophobe
+			}			
+			flag = random
+			effect = {
+				set_country_flag = EFE_fallen_empire_4
+				add_resource = {
+					minerals = 10000
+					energy = 10000	
+					food = 1000
+					influence = 500
+				}				
+				# must initialize global designs here
+				add_global_ship_design = "NAME_Reaper"
+				add_global_ship_design = "NAME_Imperium"
+				add_global_ship_design = "NAME_Supremacy"
+				add_global_ship_design = "NAME_Glory"
+				add_global_ship_design = "NAME_Devastator"
+				add_global_ship_design = "NAME_Servitor"
+				add_global_ship_design = "NAME_Destiny"
+				add_global_ship_design = "NAME_FE_Starbase"
+			}
+		}
+	}
+}
+
+# Materialist
+EFE_materialist_fallen_empire_1 = {
+	graphical_culture = "fallen_empire_02"
+	initializer = "EFE_normal_great_wound_capital_system"
+	
+	create_country_effect = {
+		create_species = {
+			name = random
+			class = random_non_machine
+			portrait = random
+			traits = random
+			extra_trait_points = 3
+			allow_negative_traits = no
+		}
+		create_country = {
+			name = random
+			type = fallen_empire
+			ignore_initial_colony_error = yes
+			authority = auth_imperial
+			civics = {
+				civic = civic_lethargic_leadership
+				civic = civic_empire_in_decline
+			}
+			species = last_created
+			ethos = {
+				ethic = ethic_fanatic_materialist
+			}
+			flag = random
+			effect = {
+				set_country_flag = EFE_fallen_empire_2
+				add_resource = {
+					minerals = 10000
+					energy = 10000	
+					food = 1000
+					influence = 500
+				}
+				# must initialize global designs here
+				add_global_ship_design = "NAME_Enforcer"
+				add_global_ship_design = "NAME_Savant"
+				add_global_ship_design = "NAME_Scholar"
+				add_global_ship_design = "NAME_Sage"
+				add_global_ship_design = "NAME_Cloaker"
+				add_global_ship_design = "NAME_Librarian"
+				add_global_ship_design = "NAME_Seeker"
+				add_global_ship_design = "NAME_FE_Starbase"
+			}
+		}
+	}
+}
+
+# Xenophile
+EFE_xenophile_fallen_empire_3 = {
+	graphical_culture = "fallen_empire_03"
+	initializer = "EFE_xeno_friendly_system_fallen_3"
+	
+	create_country_effect = {
+		create_species = {
+			name = random
+			class = random_non_machine
+			portrait = random
+			traits = random
+			extra_trait_points = 5
+			allow_negative_traits = no
+		}
+		create_country = {
+			name = random
+			type = fallen_empire
+			ignore_initial_colony_error = yes
+			authority = auth_imperial
+			civics = {
+				civic = civic_lethargic_leadership
+				civic = civic_empire_in_decline
+			}
+			species = last_created
+			ethos = {
+				ethic = ethic_fanatic_xenophile
+			}			
+			flag = random
+			effect = {
+				set_country_flag = EFE_fallen_empire_3
+				add_resource = {
+					minerals = 10000
+					energy = 10000	
+					food = 1000
+					influence = 500
+				}							
+				# must initialize global designs here
+				add_global_ship_design = "NAME_Adjuster"
+				add_global_ship_design = "NAME_Keeper"
+				add_global_ship_design = "NAME_Custodian"
+				add_global_ship_design = "NAME_Warden"
+				add_global_ship_design = "NAME_Watcher"
+				add_global_ship_design = "NAME_Seeder"
+				add_global_ship_design = "NAME_Builder"
+				add_global_ship_design = "NAME_FE_Starbase"
+			}
+		}
+	}
+}
