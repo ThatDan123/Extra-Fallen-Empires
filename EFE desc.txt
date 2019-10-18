@@ -1,0 +1,63 @@
+2.4.0 compatible
+
+Brings the amount of fallen empires to 13.
+
+Current Content:
+
+Two of each vanilla fallen empire ethos, a new Pacifist fallen empire, an authoritarian fallen empire and a Hivemind fallen empire.
+
+Does [b]NOT[/b] replace vanilla fallen empires only adds alternate ones that can spawn.
+
+[h1]NEW Machine fallen empire:[/h1]
+
+ - Unique systems for the fallen empire, including its own gate system.
+[spoiler]Has unique system called Gateway, which is far away from capital system, contains a Fast Track Gate, Lgate and normal gate.[/spoiler]
+ -Can awaken at mid game via special event which can stop the awakening, immediate declare war or just awaken normally.
+
+-Unique Civic
+
+-Synthetic Dawn and Distant Stars needed for this empire to spawn.
+
+
+[h1]NEW normal fallen empires:[/h1]
+
+-All only one system big, so you can expand into more space easily on smaller maps.
+-Does [b]NOT[/b] replace vanilla fallen empires only adds alternate ones that can spawn, meaning either fallen empires from this mod or vanilla will spawn.
+
+-Currently new ones: 
+
+Spiritualist:
+[spoiler]One system big, has a ruined or repaired dyson sphere[/spoiler]
+
+xenophobe:
+[spoiler]One system big, is cut off from the rest of the galaxy by a wormhole, no hyperlane connections[/spoiler]
+
+materialist:
+[spoiler]One system big, has a ruined matter decompressor and capital planet is an ecumenopolis.[/spoiler]
+
+Xenophile:
+[spoiler]One system big, has three gaia worlds, and has space monsters guarding them.[/spoiler]
+
+Pacifist:
+[spoiler]Has three isolated systems north outside the galaxy, a single gate links to the rest of the galaxy, has leviathans guarding them, has special event when you declare war once and then twice :P .[/spoiler]
+
+Authoritarian:
+[spoiler] Is the biggest fallen empire, has 7 systems, with two layers, requiring you to go through a wormhole and gate system. They have 7 gaias and multiple habitats, also three sections of a ring world and matter decompressor[/spoiler]
+
+Hivemind:
+[spoiler]Spawns when a special dig site is completed, is a devouring swarm, 40% chance to awaken at midgame, will always awaken at lategame or when attacked. Homeworld is a hive world.[/spoiler]
+
+
+War in heaven can occur between fallen empires of the same ethos.
+
+
+Remember to rate up the mod and favourite if you like it. 
+
+
+[b]Compatible with all mods, does NOT override any files.[/b]
+
+For example it is compatible with mods such as [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1419304439]Ancient Cache of Technologies[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1317022177]The Zenith of Fallen Empires[/url]
+
+Consider using my other mod: [url= https://steamcommunity.com/sharedfiles/filedetails/?id=1813260692]Higher Fallen Empire Limit[/url], if you want more fallen empires to spawn in larger galaxies. 13 max on huge, though might not all spawn if you have max normal empires.
+
+For More Fallen Empires and Bigger Galaxies, 1250 and 1500 stars, try looking at my other mod: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1831885384] Higher Fallen Empire Limit Bigger Galaxies[/url]
